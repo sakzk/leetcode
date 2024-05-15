@@ -5,9 +5,16 @@ LeetCodeのサイト上の問題名をコピペして貼り付けると、
 pythonの命名規則に沿ったスネークケースに変換し、
 クリップボードに保存するGUIプログラム
 
+使い方：
+起動すると入力フィールドを備えたウインドウが立ち上がるので、
+整形したい文字を入力フィールドにコピペして
+"Remove Spaces and Copy to Clipboard" をクリックする。
+
 例：
 33. Search in Rotated Sorted Array
 -> 33_search_in_rotated_sorted_array
+
+準備：pyperclip モジュールのインストールが必要。
 """
 
 import tkinter as tk
@@ -38,15 +45,15 @@ window.title("Remove Spaces and Copy to Clipboard")
 # ウィンドウを中央に配置
 center_window(window)
 
-# Create a label and entry widget for input
+# 入力用のラベルとエントリウィジェットを作成する
 label = tk.Label(window, text="Enter text:")
 label.pack(pady=30)
 entry = tk.Entry(window)
 entry.pack(padx=10, pady=5)
 
-# Create a button to trigger the space removal and copying
+# スペースの削除とクリップボードへのコピーをトリガーするボタンを作成する
 button = ttk.Button(window, text="Remove Spaces and Copy to Clipboard", command=remove_spaces)
 button.pack(pady=10)
 
-# Run the main loop
+# メインループを実行する
 window.mainloop()
