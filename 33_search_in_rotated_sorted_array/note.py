@@ -10,4 +10,6 @@ https://github.com/colorbox/leetcode/pull/10
 https://discord.com/channels/1084280443945353267/1235971495696662578/1237425063242891315
 インデックス関連：
 https://discord.com/channels/1084280443945353267/1235971495696662578/1236993286212943933
+インデックスの経過を可視化したもの：
+https://github.com/sakzk/leetcode/blob/main/binary_search_note/print_binary_search_patterns.py
 """
