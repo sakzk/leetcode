@@ -12,4 +12,7 @@ https://discord.com/channels/1084280443945353267/1235971495696662578/12374250632
 https://discord.com/channels/1084280443945353267/1235971495696662578/1236993286212943933
 インデックスの経過を可視化したもの：
 https://github.com/sakzk/leetcode/blob/main/binary_search_note/print_binary_search_patterns.py
+
+bisectモジュールの使用例
+https://discord.com/channels/1084280443945353267/1230079550923341835/1235694567085576275
 """
