@@ -15,14 +15,14 @@
     - value にすると、ループの外側の value とかぶる。
 
 データ構造
-- key: string, value: List となる dictionary. import が必要だが defaultdict() でも書ける。
+- key: string, value: List となる dictionary で定義する。 import が必要だが defaultdict() でも書ける。
 - set, get の他に、 update がある場合は tuple の他に list も選択肢に入る
     - 要素を削除して再度挿入するよりも、上書きして更新するほうが早いため
-    - 今回は set, get のみ実装すればよいので tuple をいた。
+    - 今回は set, get のみ実装すればよいので tuple をえらんだ。
 
 注意が必要な仕様
 - すべての timestamp_prev について、timestamp < time_stamp_prev だった場合は、該当なしとなる。
-    - 今回は value を "" で初期化することで対応。
+    - value を "" で初期化することで対応。
 """
 
 # timestamp によるソートを行わない実装。leetcode の環境では TLE。
@@ -90,7 +90,7 @@ class TimeMap:
 """
 コーナーケースの扱い
 - timestamp_prev == timestamp となるときの挙動
-    - timestamp_prev <= timestamp となる最大の timestamp_prev を見つける問題なので、bisect_right を使うと簡単になることに気づいた。
+    - timestamp_prev <= timestamp となる最大の timestamp_prev を見つける問題なので、bisect_right を使うと簡単になる。
     - テストケースを脳内実行して、insert_place == 0 のケアが必要なことに気づく。
 """
 
