@@ -1,4 +1,4 @@
-# timestamp をキーにした二分探索木で、timestamped_values を実装する。
+# timestamp をキーにした二分探索木で、timestamped_values を実装する。(時間計算量の最悪状態に近いため leetcode 環境ではTLE)
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Constraints:
 # 1. 1 <= key.length, value.length <= 100
