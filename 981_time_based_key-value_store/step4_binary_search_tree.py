@@ -3,9 +3,9 @@
 # Constraints:
 # 1. 1 <= key.length, value.length <= 100
 # 2. key and value consist of lowercase English letters and digits.
-# 3. 1 <= timestamp <= 107
+# 3. 1 <= timestamp <= 10^7
 # 4. All the timestamps timestamp of set are strictly increasing.
-# 5. At most 2 * 105 calls will be made to set and get.
+# 5. At most 2 * 10^5 calls will be made to set and get.
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 class Node:
